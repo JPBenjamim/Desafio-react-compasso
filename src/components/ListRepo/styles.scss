@@ -1,0 +1,53 @@
+$colorPrimary: #F4F6F7;
+$colorSecondary: #FECA0B;
+$colorTertiary: #383A3C;
+
+.repository{
+  padding: 10px 20px;
+  margin: 5px 0;
+  width: 100%;
+  border-radius: 5px;
+  background: $colorTertiary;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:hover{
+    text-decoration: none;
+  }
+
+  .repository__info{
+    width: 100%;
+
+    h3{
+      font-weight: bold;
+      color: $colorPrimary;
+      font-size: 1em;
+    }
+
+    div{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      span{
+        font-size: 0.8em;
+        color: $colorPrimary;
+
+        strong{
+          margin-left: 5px;
+        }
+      }
+    }
+
+    i{
+      color: $colorSecondary;
+    }
+  }
+
+  i{
+    color: $colorSecondary;
+    margin-left: 20px;
+  }
+}

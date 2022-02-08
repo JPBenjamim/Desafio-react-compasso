@@ -1,0 +1,51 @@
+$colorPrimary: #F4F6F7;
+$colorSecondary: #FECA0B;
+$colorTertiary: #383A3C;
+
+.profileInfo{
+  background-color: $colorTertiary;
+  border-radius: 5px;
+
+  padding: 20px 25px;
+  border-bottom: 5px solid $colorSecondary;
+
+  margin-top: 50px;
+
+  .profileInfo__photo{
+    display: flex;
+    justify-content: center;
+
+    img{
+      width: 100px; 
+      height: auto;
+      margin-bottom: 15px;
+      border-radius: 100px;
+    }
+  }
+
+  h3{
+    font-weight: bold;
+    text-align: center;
+    color: $colorPrimary;
+  }
+
+  p{
+    text-align: center;
+    color: $colorPrimary;
+  }
+
+  .profileInfo__social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+      color: $colorPrimary;
+    }
+  }
+}
