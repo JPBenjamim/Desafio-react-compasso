@@ -11,11 +11,6 @@
 
 <p align=center>
 
-<h5 align=center>
-<img src="readme/Home.png" width=600><br>
-
-
-</h5>
 
 </p>
 
@@ -27,11 +22,17 @@
 - Axios
 - Bootstrap
 
+
+
 ## 📥 Execute esse projeto no seu computador
 
 - Clonar Repositório: `gh repo clone JPBenjamim/probable-guacamole`
+- 
 - Instalar dependências: `yarn install`
+- 
 - Iniciar a Aplicação no modo desenvolvimento: `yarn start`
+
+
 
 ## Licença
 
