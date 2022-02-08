@@ -50,7 +50,7 @@ function Home() {
         </div>
         {user && (
           <div className="row justify-content-center">
-            <div className="col-5 mt-4">
+            <div className="col-12 col-lg-5 mt-4">
               <ListUsers username={user.login} image={user.avatar_url } />
             </div>
           </div>
