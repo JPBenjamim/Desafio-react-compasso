@@ -25,7 +25,7 @@
 
 ## 📥 Execute esse projeto no seu computador
 
-- Clonar Repositório: `gh repo clone JPBenjamim/probable-guacamole`
+- Clonar Repositório: `gh repo clone JPBenjamim/Desafio-react-compasso`
 
 - Instalar dependências: `yarn install`
  
