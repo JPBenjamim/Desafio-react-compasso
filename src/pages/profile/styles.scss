@@ -1,0 +1,32 @@
+$colorPrimary: #F4F6F7;
+$colorSecondary: #FECA0B;
+$colorTertiary: #383A3C;
+
+.containerList{
+  .containerList__nav{
+    display: flex;
+    margin-top: 5px;
+
+    button{
+      flex: 1;
+
+      background: $colorTertiary;
+      border: none;
+      font-weight: bold;
+      color: $colorPrimary;
+      border-bottom: 2px solid transparent;
+
+      &.active{
+        border-bottom: 2px solid $colorSecondary;
+      }
+
+      &:first-child{
+        border-radius: 5px 0 0 5px;
+      }
+
+      &:last-child{
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+}

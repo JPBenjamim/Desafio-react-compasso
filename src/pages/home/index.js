@@ -23,7 +23,7 @@ function Home() {
   }
 
   return (
-    <div className="App">
+    <>
       <main className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-lg-5">
@@ -63,7 +63,7 @@ function Home() {
           </div>
         </div>
       </footer>
-    </div>
+    </>
   );
 }
 
