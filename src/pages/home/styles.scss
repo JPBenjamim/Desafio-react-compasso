@@ -1,9 +1,9 @@
-$colorPrimary: #F4F6F7;
-$colorSecondary: #FECA0B;
-$colorTertiary: #383A3C;
-$colorTertiaryAlpha: #383A3C50;
+$colorPrimary: #f4f6f7;
+$colorSecondary: #feca0b;
+$colorTertiary: #383a3c;
+$colorTertiaryAlpha: #383a3c50;
 
-.header{
+.header {
   background: $colorTertiaryAlpha;
   border-radius: 5px;
 
@@ -15,23 +15,23 @@ $colorTertiaryAlpha: #383A3C50;
   justify-content: center;
   align-items: center;
 
-  .header__title{
+  .header__title {
     color: $colorPrimary;
     text-align: center;
     margin: 0;
   }
 
-  .header__image{
+  .header__image {
     width: 100px;
     height: auto;
     margin: 0px 0 10px 0;
   }
 
-  .header__search{
+  .header__search {
     display: flex;
     align-items: center;
 
-    .header__search--inputSearch{
+    .header__search--inputSearch {
       border-radius: 25px;
       background: $colorPrimary;
       border: none;
@@ -39,12 +39,12 @@ $colorTertiaryAlpha: #383A3C50;
       height: 40px;
       padding: 0 15px;
 
-      &:focus{
-       outline: none;
+      &:focus {
+        outline: none;
       }
     }
 
-    .header__search--button{
+    .header__search--button {
       border-radius: 100%;
       height: 40px;
       width: 45px;
@@ -56,8 +56,53 @@ $colorTertiaryAlpha: #383A3C50;
   }
 }
 
-.footer__text{
+.footer__text {
   color: $colorPrimary;
   margin-top: 10px;
   font-weight: bold;
+}
+
+main div {
+  animation-name: fade;
+  animation-duration: 500ms;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+input {
+  animation-name: fade;
+  animation-duration: 250ms;
+  animation-delay: 250ms;
+  animation-fill-mode: backwards;
+}
+
+button {
+  animation-name: fade;
+  animation-duration: 250ms;
+  animation-delay: 250ms;
+  animation-fill-mode: backwards;
+}
+
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translatex(-35%);
+  }
+  to {
+    opacity: 1;
+    transform: transal(0%);
+  }
+}
+
+body {
+  overflow: hidden;
 }

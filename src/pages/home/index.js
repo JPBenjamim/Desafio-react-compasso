@@ -34,7 +34,7 @@ function Home() {
                 <input
                   type="text" 
                   className="header__search--inputSearch" 
-                  placeholder="Ex: User-Benjamim"
+                  placeholder="Ex: JPBenjamim"
                   onChange={e => setName(e.target.value)}
                   value={name}
                 />
